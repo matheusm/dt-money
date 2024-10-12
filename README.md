@@ -10,9 +10,36 @@
 This project is a web application designed to you can simply handle your money!
 
 ## Features
-- Feature 1: [Description of feature 1]
-- Feature 2: [Description of feature 2]
-- Feature 3: [Description of feature 3]
+- Transaction Management:
+  - Add new transactions via a modal (NewTransactionModal).
+  - Search for transactions using a search form (SearchForm).
+  - Display a list of transactions with details like description, price, category, and date (Transactions).
+    
+- Context Management:
+  - Manage transactions state using context (TransactionsContext).
+  - Theming and Styling:
+
+- Apply global styles and themes using styled-components (global.ts, defaultTheme).
+  - Use styled-components for component-specific styles (Header/styles.ts, NewTransactionModal/styles.ts).
+
+- Form Handling and Validation:
+  - Use react-hook-form for form state management (useForm).
+  - Validate forms using zod and @hookform/resolvers/zod (zodResolver).
+
+- UI Components:
+  - Use Radix UI for accessible UI components (Dialog, Dialog).
+  - Use Phosphor Icons for consistent iconography (MagnifyingGlass, ArrowCircleDown, X).
+
+- Utilities:
+  - Format currency and dates using utility functions (currencyFormatter, dateFormatter).
+  
+- Configuration and Tooling:
+  - Linting configuration using ESLint (eslint.config.js).
+  - TypeScript configuration for type checking (tsconfig.json, tsconfig.app.json, tsconfig.node.json).
+  - Vite configuration for development and build (vite.config.ts).
+
+- Backend Integration:
+  - Use JSON Server for a mock backend (json-server).
 
 ## Technologies Used
 
